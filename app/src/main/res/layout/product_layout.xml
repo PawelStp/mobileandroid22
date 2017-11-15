@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/productCheckbox"
+        android:buttonTint="@color/checkboxColor"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignTop="@+id/productCheckbox"
+        android:layout_toEndOf="@+id/productCheckbox">
+
+    </ImageView>
+
+    <TextView
+        style="@style/ListItemText"
+        android:id="@+id/productName"
+        android:text="Product Name"
+        android:layout_alignBottom="@+id/productCheckbox"
+        android:layout_toEndOf="@+id/productImage" />
+    <TextView
+        style="@style/ListItemText"
+        android:id="@+id/productType"
+        android:text="Product Type"
+        android:textSize="12sp"
+        android:layout_alignBaseline="@+id/productName"
+        android:layout_alignBottom="@+id/productName"
+        android:layout_toEndOf="@+id/productName"
+        android:layout_marginStart="18dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista produktów</string>
+    <string name="buttonText">Wybierz</string>
+    <string name="buttonText3">Zmien jezyk</string>
+    <string name="buttonText2">Change language</string>
+    <string name="apple">Jablko</string>
+    <string name="banana">Banan</string>
+    <string name="cookie">Ciastko</string>
+    <string name="potato">Ziemniak</string>
+    <string name="tomato">Pomidor</string>
+    <string name="Strawberry">Truskawki</string>
+    <string name="Bar">Baton</string>
+    <string name="Vegetable">Warzywo</string>
+    <string name="Fruit">Owoc</string>
+    <string name="Sweets">Słodycze</string>
+    <!-- Plural part -->
+    <string name="zero">Nic nie zaznaczono!</string>
+    <string name="one">Zaznaczono %d produkt!</string>
+    <string name="few">Zaznaczono %d produkty!</string>
+    <string name="other">Zaznaczono %d produktów!</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Product list</string>
+    <string name="buttonText">Select</string>
+    <string name="buttonText2">Change language</string>
+    <string name="buttonText3">Zmien jezyk</string>
+    <string name="apple">Apple</string>
+    <string name="banana">Banana</string>
+    <string name="cookie">Cookie</string>
+    <string name="potato">Potato</string>
+    <string name="tomato">Tomato</string>
+    <string name="Strawberry">Strawberry</string>
+
+    <string name="Bar">Bar</string>
+    <string name="Vegetable">Vegetables</string>
+    <string name="Fruit">Fruit</string>
+    <string name="Sweets">Sweets</string>
+
+    <!-- Plural part -->
+    <string name="zero">No products selected!</string>
+    <string name="one">One product selected!</string>
+    <string name="other">%d products selected!</string>
+
+</resources>

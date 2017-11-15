@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals
+        name="element_plural">
+        <item quantity="zero">@string/zero</item>
+        <item quantity="one">@string/one</item>
+        <item quantity="other">@string/other</item>
+    </plurals>
+</resources>
